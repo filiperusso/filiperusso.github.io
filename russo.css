@@ -1,0 +1,186 @@
+body {
+
+ font-family: verdana, geneva, arial, sans-serif;
+
+ background-color: white;
+
+ color:           black;
+
+}
+
+
+
+#main {
+
+  width:     800px;
+
+  position:  relative;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+.template {
+
+  width:     800px;
+
+  position:  relative;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+
+
+#header {
+
+  height:    191px;  
+
+  width:     800px;
+
+  position:  relative;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+.zero	{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.paragrafosArt {
+	
+  width:    162px;
+
+  height:   162px;
+  
+  position: absolute;
+  
+  margin-right: 0px;
+
+}
+
+.paragrafosArtLeft {
+  
+  margin-left: 51.3px;
+  text-align: right;
+
+}
+
+.paragrafosArtRight {
+	
+  margin-left:  586.7px; 
+
+  text-align:    left;
+
+}
+
+#paragrafo1 {
+
+  margin-top:-308px;
+
+}
+
+#paragrafo2 {
+
+   margin-top: -613px;
+
+}  
+
+
+#paragrafo3 {
+
+  margin-top:-928px;
+
+}
+
+.discurso {
+  margin-left: 100px; 
+  margin-right: 100px; 
+  text-align: justify; 
+  line-height: 1.75; 
+  margin-bottom: 20px	
+}
+
+.discursoFinal {
+  margin-bottom: 0px;	
+}
+
+a {
+
+  text-decoration: none;
+
+  color: #00008B;
+
+}
+
+
+
+a:link {
+
+  color: #00008B;
+
+}
+
+
+
+a:visited {
+
+  color: #00008B;
+
+}
+
+
+
+a:active {
+
+  color: #006400;
+
+}
+
+
+
+a:hover {
+
+  color: #006400;
+
+}
+
+.below {
+	margin-bottom: 53px;
+}
+
+#rodape {
+
+  position: relative;
+
+  text-align: center;
+  
+  margin-left: auto;
+  
+  margin-right: auto;
+  
+  margin-top: 53px;
+  
+  margin-bottom: 20px;
+  
+
+}
+
+.mirror {
+     transform: rotateY(180deg);
+}

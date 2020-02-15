@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html class="zero">
+<head class="zero"><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+	<meta name="descricao" content="Website de Filipe Russo com seus méritos fotográficos, literários, teatrais, tipográficos, performáticos ao redor de um eixo central">
+
+	<meta name="palavraschave" content="Filipe Russo, Filipe Albuquerque Russo, Filipe, Russo, Albuquerque, Filipe Albuquerque, Albuquerque Russo, fotografia, tipografia, literatura, teatro, vídeo, perfomance">
+
+    <title>Filipe Russo</title>
+
+	<link rel="shortcut icon" href="http://filiperusso.com/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="russo.css">
+
+  </head> 
+
+
+
+ <body class="zero">
+  	
+    <div id="app" class="zero">
+
+    <div id="main" class="zero">
+
+	<!-- id="header-->
+
+    <div class="zero below" width="800" height="193" style="margin-top: 53px">
+
+	 <a v-link="{ path: '/' }">
+
+	 	<img src="images/filipeRusso-header.png" alt="Imagem do cabeçalho de Filipe Russo" width="800" height="193" title="Filipe Russo" class="zero">
+
+	 </a>
+
+    </div>
+	
+    <div class="zero below" style="width: 800px;" height="148">
+    	<a v-link="{ path: '/art' }"><img src="images/banner-art.png" alt="Art" title="Art" width="251" height="148" class="zero"></a><a v-link="{ path: '/bio' }"><img src="images/banner-bio.png" alt="Bio" title="Bio" width="237" height="148" class="zero"></a><a v-link="{ path: '/work' }"><img src="images/banner-work.png" alt="Work" title="Work" width="312" height="148" class="zero"></a>
+    </div>
+    
+    <div class="container">
+    	<router-view transition transition-mode="out-in" width="800" class="zero" style="position:  relative; margin-left: auto; margin-right: auto;"></router-view>
+  	</div>
+    
+    <div id="rodape" class="zero">
+
+			<p style="margin: 0px">© 2017 — Filipe Albuquerque Russo | Todos os direitos reservados.</p>
+
+	</div>
+    
+    <template id="home-component-template">
+    
+		<img src="images/circular.jpg" alt="Imagem circular com Filipe Russo no centro" title="Filipe Russo" width="800" height="800" >
+		
+	</template>
+    
+	
+
+	
+
+	
+	<template id="art-component-template" >
+    		<img src="images/copa.png" alt="árvore das lendas" title="árvore das lendas" width="1156" height="1452" style="margin-left: -178px">
+        <div width="800"> 
+        	
+            
+            <img src="images/eixocentral-corpo.png" alt="árvore das lendas" title="árvore das lendas" width="800" height="320">
+            <img src="images/eixocentral-corpo.png" class="mirror" alt="árvore das lendas" title="árvore das lendas" width="800" height="320">
+            <img src="images/eixocentral-perna.png" alt="árvore das lendas" title="árvore das lendas" width="800" height="187">
+         	
+            <div id="paragrafo1" class="paragrafosArt paragrafosArtLeft">
+            
+            	<p>2010 — O vídeo teatral <a v-link="{ path: '/art/materia-de-salvacao-ou-o-horror' }">Matéria de Salvação ou O HORROR</a></p>
+                
+            </div>
+            
+            <div id="paragrafo2" class="paragrafosArt paragrafosArtRight">
+            
+            	<p>2012  —  O romance autoficcional <a v-link="{ path: '/art/caro-jovem-adulto' }">Caro Jovem Adulto</a></p>
+                            
+            </div>
+            
+            
+            <div id="paragrafo3" class="paragrafosArt paragrafosArtLeft">
+            
+            	<p>2014  —  O romance de terror <a v-link="{ path: '/art/asfixia' }">Asfixia</a></p>
+            
+            </div>
+            
+            
+            
+        </div>
+        
+        
+        
+    </template>
+    
+    <template id="horror-component-template">
+        <div width="800" class="below">
+          <iframe width="800" height="450" src="https://www.youtube.com/embed/Sex9LhNPCns" frameborder="0" allowfullscreen></iframe>
+        </div>
+                <p class="discurso">Para o vídeo teatral Matéria de Salvação ou O Horror (2010) Filipe Russo leu toda a literatura de Clarice Lispector, assim pôde selecionar diversas tiradas líricas com as quais desenvolveu adaptações performáticas, interpretações despojadas de uma irreverência ímpar. O ator traz para nós uma espontaneidade que une uma produção precária a uma estética sofisticada, questionando assim tanto os ideais mercadológicos quanto o olhar viciado do transeunte no que diz respeito à produção e ao consumo de imagens.</p>
+                <p class="discurso discursoFinal">Entre caretas e falsetes, quedas e sobressaltos, gesticulações e poses você enxerga a Matéria de Salvação ou O HORROR?</p>
+  	</template>
+    
+    <template id="cja-component-template">
+        <div width="800" class="below">
+          <img src="images/iluminadoExpandido.jpg" alt="Capa de Caro Jovem Adulto" title="Iluminado Expandido" width="400" height="600" style="margin-left: 200px">
+        </div>
+        <p class="discurso">Caro Jovem Adulto estabeleceu em 2012 a estréia tripla de Filipe Russo no cenário artístico brasileiro. Para a obra o autor desenvolveu a fonte tipográfica Limite Circular que aliás ilustra o cabeçalho deste site, Filipe Russo também produziu para seu primeiro romance a imagem Iluminado Expandido que estampa a capa do livro. O escritor se encarregou de todos os detalhes tanto de design quanto de edição a fim de realizar suas propostas estéticas em toda sua irreverência e exuberância.</p>
+        <p class="discurso below">O romance autoficcional Caro Jovem Adulto (2012) foi finalista no 25º Programa Nascente da USP em 2017, o qual prestigiou autor e obra com uma menção honrosa.</p>
+<h3 class="discurso">Sinopse:</h3>
+<p class="discurso below">No limiar entre ficção e autobiografia Filipe Russo tece uma prosa poética, onde a própria tessitura literária se deforma conforme as mais diversas experiências cotidianas entram em colapso devido a meras flutuações psicossomáticas para apenas cair mais logo adiante num realismo cru sem adereços, o qual inevitavelmente se dissolve em areia movediça nos levando novamente a mais outra aventura lírica.</p>
+        <p class="discurso"><a target="_blank" href="http://www.clubedeautores.com.br/book/138955--Caro_Jovem_Adulto">Novas Unidades</a></p>
+        <p class="discurso"><a target="_blank" href="https://www.estantevirtual.com.br/b/filipe-russo/caro-jovem-adulto/3330680796?q=">Seminovos & Usados</a></p>
+        <p class="discurso discursoFinal"><a target="_blank" href="https://www.goodreads.com/reader/36518-caro-jovem-adulto?return_to=%2Fbook%2Fshow%2F17167487-caro-jovem-adulto">Primeiro Capítulo Gratuito</a></p>
+  	</template>
+    
+    <template id="asf-component-template">
+        <div width="800" class="below">
+          <img src="images/asfixia.jpg" alt="Capa de Asfixia" title="Asfixia" width="400" height="600" style="margin-left: 200px">
+        </div>
+        <p class="discurso">Em seus livros Filipe Russo não somente produz uma obra de beleza literária, mas preocupa-se também com o fenômeno estético do livro enquanto objeto de arte. Com o romance de terror <span style="color: purple">Asfixia</span> não poderia ser diferente, para o mesmo o autor colaborou numa campanha de crowdfunding a fim de trazer até nós a fonte tipográfica Cristoforo, o renascimento da typeface Columbus (1892) de Hermann Ihlenburg por Thomas Phinney. Para a capa, orelhas e contracapa Filipe Russo colaborou com o artista plástico Thiago Bentancour que produziu os desenhos que as ilustram, o escritor cuidou da edição digital das imagens assim como de todos os aspectos de design.</p>
+<p class="discurso below">O romance de terror <span style="color: purple">Asfixia</span> (2014) foi finalista no 24º Programa Nascente da USP em 2016, o qual prestigiou autor e obra com uma menção honrosa.</p>
+<h3 class="discurso">Sinopse:</h3>
+<p class="discurso below">Recém acordada de um pesadelo atípico nossa protagonista depara-se com seu próprio apartamento tal qual toda manhã quando passa um café bem preto para içar as pálpebras de vez. Em seguida retoma sua rotina de praxe e prestes a apaziguar-se com trabalhos gráficos e sonhos maternais, o próprio pavor vazio a visita novamente e a névoa maligna a ofusca com seu breu branco e indevassável. Vire e mexe, vez ou outra ela se vê tragada para uma cidade tão anônima e abandonada quanto ela mesma, incapaz de lidar com a avalanche de sensações estranguladas por fios invisíveis nossa protagonista perambula e investiga os mistérios movediços de um amanhecer pálido e despovoado, esvaziado inclusive do caráter revelador e aconchegante do calor solar. Transitando pelos vãos de uma indiferença e maldade inerentes e inexoráveis o que nos encontrará do outro lado do véu? Além de uma asfixia que escala a garganta pelo esôfago até a goela entalada com desgosto e desprezo, o mesmo que nos encarcerou nestas vastidões volúveis.</p>
+        <p class="discurso"><a target="_blank" href="https://www.clubedeautores.com.br/book/176399--Asfixia">Novas Unidades</a></p>
+        <p class="discurso"><a target="_blank" href="https://www.estantevirtual.com.br/busca?q=asfixia+filipe+russo">Seminovos & Usados</a></p>
+        <p class="discurso discursoFinal"><a target="_blank" href="https://www.goodreads.com/reader/65603-asfixia?return_to=%2Fbook%2Fshow%2F23550930-asfixia">Primeiro Capítulo Gratuito</a></p>
+  	</template>
+	    
+        
+  	</template>
+    
+    <template id="bio-component-template">
+    <div width="800" class="below">
+    <img src="images/filipeRussoBio.jpg" alt="Filipe Russo de Cima" title="Filipe Russo" width="400" height="600" style="margin-left: 200px">
+    </div>
+      		<p class="discurso">Filipe Albuquerque Russo nasceu em 22 de Agosto de 1990 em São Paulo, capital e cresceu em Manaus, Amazonas. Aos 16 anos retornou a sua cidade natal onde reside atualmente. </p>
+            <p class="discurso">O escritor estreiou no cenário artístico brasileiro com Caro Jovem Adulto (2012), um romance autoficcional escrito em prosa poética para o qual o autor desenvolveu a fonte tipográfica Limite Circular e a capa Iluminado Expandido. </p>
+            <p class="discurso discursoFinal">Filipe Russo foi finalista com seus romances Asfixia (2014) e Caro Jovem Adulto (2012) no 24&ordm; e no 25&ordm;  Programa Nascente da USP em 2016 e 2017 respectivamente. Em ambas edições a comissão organizadora prestigiou autor e obra com uma menção honrosa.</p>
+	    
+        
+  	</template>
+    
+    <template id="work-component-template">
+    
+        <div width="800" class="below">
+        	<img src="images/filipeRussoWork.jpg" alt="Filipe Russo de Perfil" title="Filipe Russo" width="400" height="600" style="margin-left: 200px">
+        </div>
+        
+        <p class="discurso">Filipe Albuquerque Russo estuda Licenciatura em Matemática na Universidade de São Paulo (USP).</p>
+        <p class="discurso">Ele traduziu do inglês para o português o livro didático Discover Meteor numa iniciativa open source liderada pelos autores originais, trazendo para nós a primeira obra sobre o webframework Meteor, uma das tecnologias mais inovadoras do Vale do Silício.  </p>
+        <p class="discurso">Filipe Russo também traduziu conteúdo científico e de divulgação científica na Wikipedia de modo voluntário para o projeto Guerrilla Skepticism, o qual se propõe a melhorar a qualidade do conteúdo cético disponível na web. </p>
+        <p class="discurso discursoFinal">Ele proveu o serviço de tradutor técnico Inglês-Português, Português-Inglês para a empresa de engenharia civil Ralc Construções. Assim como para a empresa de artefatos de concreto PAD Blocos.
+</p>
+   
+  	</template>
+	
+
+	</div>
+    
+    <script src='js/vue.min.js'></script> <!-- https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js -->
+	<script src='js/vue-router.min.js'></script>
+
+    <script src="js/index.js"></script>
+    
+  	</div>
+
+</body></html>

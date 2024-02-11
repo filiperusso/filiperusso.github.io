@@ -255,3 +255,7 @@ a:hover {
 .mirror {
      transform: rotateY(180deg);
 }
+
+img {
+     display: block;
+}

@@ -28,6 +28,10 @@ var AsfComponent = Vue.extend({
   template: "#asf-component-template"
 });
 
+var LoveComponent = Vue.extend({
+  template: "#love-component-template"
+});
+
 var router = new VueRouter();
 
 router.map({
@@ -51,6 +55,9 @@ router.map({
   },
   '/art/asfixia': {
     component: AsfComponent
+  },
+  '/art/love-scars': {
+    component: LoveComponent
   }
 });
 

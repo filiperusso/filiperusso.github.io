@@ -32,6 +32,10 @@ var LoveComponent = Vue.extend({
   template: "#love-component-template"
 });
 
+var InLoveComponent = Vue.extend({
+  template: "#inlove-component-template"
+});
+
 var router = new VueRouter();
 
 router.map({
@@ -58,6 +62,9 @@ router.map({
   },
   '/art/love-scars': {
     component: LoveComponent
+  },
+  '/art/love-scars/inlove': {
+    component: InLoveComponent
   }
 });
 

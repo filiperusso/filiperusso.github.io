@@ -71,5 +71,12 @@ router.map({
   }
 });
 
+router.beforeEach(function (to, from, next) { 
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 100);
+    next();
+});
+
 var App = Vue.extend({});
 router.start(App, "#app");

@@ -36,7 +36,7 @@ var InLoveComponent = Vue.extend({
   template: "#inlove-component-template"
 });
 
-var router = new VueRouter();
+var router = new VueRouter({history: true});
 
 router.map({
   '/': {

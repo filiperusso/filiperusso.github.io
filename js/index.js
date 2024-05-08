@@ -40,7 +40,7 @@ var router = new VueRouter();
 
 router.map({
   '/': {
-	component: HomeComponent  
+    component: HomeComponent  
 	  },	
   '/art': {
     component: ArtComponent
@@ -65,6 +65,9 @@ router.map({
   },
   '/art/love-scars/inlove': {
     component: InLoveComponent
+  },
+  '*': {
+    component: HomeComponent  
   }
 });
 
